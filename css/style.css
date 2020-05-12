@@ -1,0 +1,45 @@
+<style>
+    #header{
+        border: 2px outset black;
+        border-radius: 8px;
+        background: rgba(14, 27, 87, 1.0);
+    }
+    div{
+        border: 2px outset black;
+        border-radius: 8px;
+        text-align:center;font-size:100%;
+        background: rgba(255, 255, 255, 0.6);
+    }
+    body, html{
+        height: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        
+    }
+    .bg{
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: black;
+    }
+    #landing{
+        color:white;
+        font-family:arial;
+        text-align:center;
+        font-size:150%;
+    }
+    a.button {
+        background-color: #27388A; 
+        border: none;
+        color: white;
+        padding: 20px 52px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+    }
+</style>
