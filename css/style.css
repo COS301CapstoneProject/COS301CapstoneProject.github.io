@@ -1,46 +1,85 @@
-    body, html{
-        height: 100%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-right: 10px;
-        margin-left: 10px;
-        
-    }
-    .bg{
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        background-color: rgba(0, 41, 132, 0.8);;
-    }
-    #landing{
-        color:white;
-        font-family:candara;
-        text-align:center;
-        font-size:150%;
-        border: 2px outset black;
-        border-radius: 8px;
-        text-align:center;
-        font-size:100%;
-        background: #1a237e;
-    }
-    a.button {
-        background-color: #001970; 
-        border: none;
-        color: white;
-        padding: 20px 52px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 120%;
-    }
-    #header{
-        border: 2px outset black;
-        border-radius: 8px;
-        background: #000051;
-        font-family:candara;
-        text-align:center;
-        font-size:150%;
-        color:white;
-    }
+    body{
+  background-color: #7f8f75 ;
+  font-family: Roboto Slab ;
+}
+
+#topDiv{
+    background-image: url('../img/notebook.jpg');
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    padding-top: 80px;
+    padding-left: 10%;
+    -moz-box-shadow:     0 0 10px black;
+    -webkit-box-shadow:  0 0 10px black;
+    box-shadow:          0 0 10px black;
+}
+
+
+#teamName{
+  color: #f7f7f7 ;
+  background-color: #3f3f44 ;
+  padding: 10px;
+  font-size: 40px;
+  width: 40%;
+  text-align: center;
+  border-radius: 2px;
+}
+
+#teamGit{
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+#teamDescription{
+  color: #f7f7f7 ;
+  font-size: 15px;
+}
+
+#bottomDiv{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 100%;
+  padding:10px;
+  background-color: #646e5e ;
+  -moz-box-shadow:     0 0 10px black;
+  -webkit-box-shadow:  0 0 10px black;
+  box-shadow:          0 0 10px black;
+}
+
+#footer{
+  margin-top: 5%;
+  background-image: url('../img/wood1.jpg');
+  height: 100px;
+  width: 100%;
+  -moz-box-shadow:     0 0 10px black;
+  -webkit-box-shadow:  0 0 10px black;
+  box-shadow:          0 0 10px black;
+}
+
+#teamCV{
+  color: #3f3f44 ;
+  background-color:  #f7f7f7 ;
+  font-size: 30px;
+  margin-left: auto;
+  margin-top: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.7;
+  border-radius: 3% ;
+}
+
+.cvButton{
+  margin: auto;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.userIcon{
+  width:10%;
+  height:100%;
+  border-radius: 100%;
+  margin-right:10%;
+  float: left;
+}
