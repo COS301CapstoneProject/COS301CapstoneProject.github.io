@@ -1,24 +1,24 @@
     body{
-  background-color: #7f8f75 ;
+  background-color: #A0AABB ;
   font-family: Roboto Slab ;
 }
 
 #topDiv{
-    background-image: url('../img/notebook.jpg');
+    background-image: url('../img/water.jpg');
     height: 350px;
     width: 100%;
     background-size: cover;
     padding-top: 80px;
     padding-left: 10%;
-    -moz-box-shadow:     0 0 10px black;
-    -webkit-box-shadow:  0 0 10px black;
-    box-shadow:          0 0 10px black;
+    -moz-box-shadow:     0 0 8px #191b1f;
+    -webkit-box-shadow:  0 0 8px #191b1f;
+    box-shadow:          0 0 8px #191b1f;
 }
 
 
 #teamName{
   color: #f7f7f7 ;
-  background-color: #3f3f44 ;
+  background-color: rgba(63, 63, 68, 0.6) ;
   padding: 10px;
   font-size: 40px;
   width: 40%;
@@ -36,26 +36,38 @@
   font-size: 15px;
 }
 
-#bottomDiv{
+.bottomDiv{
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
   width: 100%;
-  padding:10px;
-  background-color: #646e5e ;
-  -moz-box-shadow:     0 0 10px black;
-  -webkit-box-shadow:  0 0 10px black;
-  box-shadow:          0 0 10px black;
+  padding:2%;
+  background-color: rgba(88, 104, 130, 0.8);
+  -moz-box-shadow:     0 0 8px #191b1f;
+  -webkit-box-shadow:  0 0 8px #191b1f;
+  box-shadow:          0 0 8px #191b1f;
+}
+
+.aboutDiv{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 100%;
+  padding:0.1%;
+  background-color: rgba(88, 104, 130, 0.8);
+  -moz-box-shadow:     0 0 8px #191b1f;
+  -webkit-box-shadow:  0 0 8px #191b1f;
+  box-shadow:          0 0 8px #191b1f;
 }
 
 #footer{
   margin-top: 5%;
-  background-image: url('../img/wood1.jpg');
+  background-image: url('../img/water.jpg');
   height: 100px;
   width: 100%;
-  -moz-box-shadow:     0 0 10px black;
-  -webkit-box-shadow:  0 0 10px black;
-  box-shadow:          0 0 10px black;
+  -moz-box-shadow:     0 0 8px #191b1f;
+  -webkit-box-shadow:  0 0 8px #191b1f;
+  box-shadow:          0 0 8px #191b1f;
 }
 
 #teamCV{
@@ -67,19 +79,49 @@
   padding-left: 20px;
   padding-right: 20px;
   opacity: 0.7;
-  border-radius: 3% ;
+  border-radius: 3px ;
+  width:100%;
 }
 
 .cvButton{
   margin: auto;
-  margin-top: 30px;
+  margin-top: 5px;
   text-align: left;
 }
 
+.cvButtonPanel{
+  margin-top: 2%;
+}
+
 .userIcon{
-  width:10%;
+  width:20%;
   height:100%;
   border-radius: 100%;
   margin-right:10%;
   float: left;
+}
+
+
+#teamIntroImg{
+  border-radius:4px;
+}
+
+#scubamateLogo{
+  width:60%;
+  margin: auto;
+  cursor: pointer;
+}
+
+.siteLinkBtn{
+
+  cursor: pointer;
+  margin-top:5%;
+  border-radius: 40px;
+}
+
+#scubamateDesc{
+  color: #f7f7f7 ;
+  font-size: 15px;
+  margin-top:2%;
+  word-wrap: normal;
 }
